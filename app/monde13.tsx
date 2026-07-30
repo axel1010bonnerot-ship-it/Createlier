@@ -1,13 +1,13 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function Monde1() {
+export default function Monde2() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Monde Créatif 🎨</Text>
+      <Text style={styles.title}>Monde Jeux 🎮</Text>
 
       <Text style={styles.text}>
-        Bienvenue dans le monde créatif !
-        Ici tu peux dessiner, imaginer et créer librement.
+        Bienvenue dans le monde des jeux !
+        Amuse-toi et découvre des activités ludiques.
       </Text>
     </View>
   );

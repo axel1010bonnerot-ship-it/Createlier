@@ -2,36 +2,25 @@
   "name": "Créa'telier",
   "short_name": "Créa'telier",
   "description": "L'application pédagogique de créativité et d'innovation.",
-
   "start_url": "/",
   "scope": "/",
-
   "display": "standalone",
   "orientation": "portrait",
-
   "background_color": "#FFFFFF",
   "theme_color": "#1976D2",
-
   "lang": "fr",
-
   "icons": [
     {
-      "src": "/assets/images/icon.png",
+      "src": "/icon.png",
       "sizes": "1024x1024",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/assets/images/maskable-icon.png",
+      "src": "/maskable-icon.png",
       "sizes": "1024x1024",
       "type": "image/png",
       "purpose": "maskable"
-    },
-    {
-      "src": "/assets/images/apple-touch-icon.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "purpose": "any"
     }
   ]
 }

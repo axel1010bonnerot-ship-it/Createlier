@@ -2,13 +2,14 @@
   "name": "Créa'telier",
   "short_name": "Créa'telier",
   "description": "L'application pédagogique de créativité et d'innovation.",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#FFFFFF",
   "theme_color": "#1976D2",
   "lang": "fr",
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "/icon.png",

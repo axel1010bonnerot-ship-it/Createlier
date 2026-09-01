@@ -32,6 +32,18 @@ export default function Root({ children }: PropsWithChildren) {
           href="/assets/images/apple-touch-icon.png"
         />
 
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('/sw.js');
+        });
+      }
+    `,
+  }}
+/>
+
         <ScrollViewStyleReset />
       </head>
 
